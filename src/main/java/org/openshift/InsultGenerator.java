@@ -37,7 +37,7 @@ public class InsultGenerator {
     connection.close();
    }
   } catch (Exception e) {
-   return e;
+   return e.getMessage();
   }
   return theInsult;
  }
